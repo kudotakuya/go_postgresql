@@ -15,6 +15,6 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./go:/go/src
+      - ./go:/go/src/web
     depends_on:
         - db
